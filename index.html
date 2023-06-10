@@ -2,31 +2,62 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Scientific Profile</title>
+  <title>József Sándor</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
       background-color: #f1f1f1;
     }
 
-    h1 {
-      color: #333333;
+    .header {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
       text-align: center;
     }
 
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      line-height: 1.5;
+      border-radius: 5px;
+    }
+
     h2 {
-      color: #333333;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px 0 10px;
     }
 
     p {
-      margin-bottom: 10px;
+      margin: 10px 0;
+    }
+
+    .profile-image {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .section {
       margin-bottom: 30px;
       padding: 20px;
-      background-color: #ffffff;
+      background-color: #f9f9f9;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -37,81 +68,79 @@
       margin-bottom: 10px;
     }
 
-    .sub-section {
-      margin-bottom: 10px;
-    }
-
-    .profile-frame {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 250px;
-      height: 250px;
-      
-      border: 5px solid #ffffff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-    }
-
-    .profile-image {
-      width: 100%;
-      height: 100%;
-      object-fit: scale-down;
+    .footer {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <h1>Scientific Profile</h1>
-
-  <div class="section">
-    <h2 class="section-title">Personal Information</h2>
-    <div class="sub-section">
-      <div class="profile-frame">
-        <img class="profile-image" src="profile.jpg" alt="Profile Picture">
-      </div>
-    </div>
-    <div class="sub-section">
-      <p><strong>Name:</strong> John Doe</p>
-      <p><strong>Email:</strong> johndoe@example.com</p>
-      <p><strong>Phone:</strong> (123) 456-7890</p>
-    </div>
+  <div class="header">
+    <h1>József Sándor</h1>
   </div>
 
-  <div class="section">
-    <h2 class="section-title">Education</h2>
-    <div class="sub-section">
-      <p><strong>PhD in Biology</strong></p>
-      <p>University of Science</p>
+  <div class="content">
+    <div class="section">
+      <h2 class="section-title">Personal Information</h2>
+      <img class="profile-image" src="profile_picture.jpg" alt="Profile Picture">
+      <p><strong>Name:</strong> József SÁNDOR</p>
+      <p><strong>Email:</strong> sjozsef2000@gmail.com</p>
+      <p><strong>Phone:</strong> +40732435524</p>
+      <p><strong>Location:</strong> Budapest, Hungary</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Biography</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et elementum sapien. Mauris auctor dui ac quam dignissim, non fringilla mi iaculis. 
+      Aliquam dapibus placerat gravida. Duis a interdum tortor. Curabitur eu turpis eleifend, convallis nisl vitae, tincidunt odio. 
+      Phasellus id eros a ligula tincidunt placerat in in urna. Ut maximus ipsum sit amet volutpat pellentesque. 
+      Curabitur tempor, tortor a auctor laoreet, nisi risus varius elit, eu semper tortor enim nec nunc.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Research Interests</h2>
+      <ul>
+        <li>Topic 1</li>
+        <li>Topic 2</li>
+        <li>Topic 3</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Publications</h2>
+      <ul>
+        <li>Publication 1</li>
+        <li>Publication 2</li>
+        <li>Publication 3</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Education</h2>
+      <p><strong>MSc in Computer Engineering</strong></p>
+      <p>Budapest University of Technology and Economics (BME)</p>
+      <p>Year: 2024</p>
+      <p><strong>BSc in Computer Engineering</strong></p>
+      <p>Budapest University of Technology and Economics (BME)</p>
       <p>Year: 2022</p>
     </div>
-    <div class="sub-section">
-      <p><strong>BSc in Chemistry</strong></p>
-      <p>University of Science</p>
-      <p>Year: 2018</p>
+
+    <div class="section">
+      <h2 class="section-title">Work Experience</h2>
+      <ul>
+        <li>Work 1</li>
+        <li>Work 2</li>
+        <li>Work 3</li>
+      </ul>
     </div>
-  </div>
 
-  <div class="section">
-    <h2 class="section-title">Research Interests</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et elementum sapien.</p>
-  </div>
+    </div>
 
-  <div class="section">
-    <h2 class="section-title">Publications</h2>
-    <ul>
-      <li>Publication 1</li>
-      <li>Publication 2</li>
-      <li>Publication 3</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title">Conference Presentations</h2>
-    <ul>
-      <li>Conference 1</li>
-      <li>Conference 2</li>
-      <li>Conference 3</li>
-    </ul>
+  <div class="footer">
+    &copy; 2023 József Sándor. All rights reserved.
   </div>
 
 </body>
