@@ -20,7 +20,7 @@ h1 {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
@@ -42,8 +42,8 @@ p {
 .profile-image {
     display: block;
     margin: 20px auto;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
