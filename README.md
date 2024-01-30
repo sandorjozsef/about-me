@@ -1,2 +1,2 @@
 # about-me
-A simple scientific website about myself.
+This is a simple website that summarizes professional informations about József Sándor.
